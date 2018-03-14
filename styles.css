@@ -1,0 +1,14 @@
+.header {
+    background-color: darkblue;
+    width: 100%;
+    color: white;
+}
+
+.name {
+    font-size: 40px;
+}
+
+.profession {
+    font-size: 28px;
+    text-align: right; 
+}
