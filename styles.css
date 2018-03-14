@@ -5,10 +5,11 @@
 }
 
 .name {
+    display: inline-block;
     font-size: 40px;
 }
 
 .profession {
+    display: inline-block;
     font-size: 28px;
-    text-align: right; 
 }
