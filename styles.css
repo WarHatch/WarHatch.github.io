@@ -75,6 +75,10 @@ body {
     background-color: rgb(192, 192, 192);
 }
 
+.bodySection .headerLine {
+    background-color: orange;
+}
+
 .contacts {
     flex:auto
 }
@@ -104,4 +108,10 @@ body {
 
 #mainBody {
     width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.bodySection {
+    flex: 1;
 }
