@@ -9,6 +9,12 @@ body {
 #profileImage{
     height: 150px;
     width: 150px;
+    border-radius: 50%;
+
+    border-style: solid;
+    border-color: white;
+    border-width: 5px;
+
     float: left;
 }
 
