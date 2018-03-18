@@ -155,6 +155,10 @@ span {
     color: orange;
 }
 
+.twoColumns {
+    width: 100%;
+}
+
 .twoColumns td {
     width: 50%;
 }
