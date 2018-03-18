@@ -2,6 +2,10 @@ body {
     margin: 0;
 }
 
+span {
+    color: gray;
+}
+
 .header {
     width: 100%;
 }
@@ -16,7 +20,7 @@ body {
     border-width: 5px;
 
     float: left;
-    margin-top: 1.5%;
+    margin-top: 1.2%;
     margin-left: 3%;
 }
 
@@ -75,10 +79,6 @@ body {
     background-color: rgb(192, 192, 192);
 }
 
-.bodySection .headerLine {
-    background-color: orange;
-}
-
 .contacts {
     flex:auto
 }
@@ -102,7 +102,7 @@ body {
 
 .whoAmI {
     color: orange;
-    font-size: 25px;
+    font-size: 20px;
     font-weight: bold;
 }
 
@@ -114,4 +114,55 @@ body {
 
 .bodySection {
     flex: 1;
+    padding: 3%;
+}
+
+.sectionHeader {
+    display: flex;
+    align-items: center;
+
+    width: 100%;
+}
+
+.sectionHeader > .sectionName {
+    font-size: 20px;
+    font-weight: bold;
+    color: darkblue;
+
+    width: auto;
+}
+
+.sectionHeader > .headerLine {
+    flex-grow: 1;
+    
+    background-color: orange;
+    margin-left: 15px;
+}
+
+.sectionHeader2 {
+    font-size: 18px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.sectionHeader3 {
+    font-size: 17px;
+    color: darkblue;
+}
+
+.orangeYear{
+    font-size: 18px;
+    color: orange;
+}
+
+.twoColumns td {
+    width: 50%;
+}
+
+.twoColumns td:last-child{
+    border-bottom: 3px solid grey;
+}
+
+.twoColumns tr:last-child td:last-child{ /* Last cell */
+    border-bottom: none;
 }
