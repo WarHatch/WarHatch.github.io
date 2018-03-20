@@ -150,6 +150,11 @@ span {
 
 .sectionHeader2 {
     font-size: 18px;
+    color: darkblue;
+}
+
+.sectionHeader2B {
+    font-size: 18px;
     font-weight: bold;
     color: darkblue;
 }
@@ -178,4 +183,40 @@ span {
 
 .twoColumns tr:last-child td:last-child{ /* Last cell */
     border-bottom: none;
+}
+
+.nameAndRating {
+    padding: 0;
+    margin: 0;
+
+    list-style-type: none;
+}
+
+.nameAndRating li {
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    white-space: nowrap;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.rating {
+    text-align: right;
+
+    letter-spacing: 2px;
+
+    display: inline-block;
+    width: 100%;
+    vertical-align: middle;
+}
+
+.blueDot span {
+    color: midnightblue;
+}
+
+.orangeDot span {
+    color: orangered;
 }
