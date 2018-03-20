@@ -85,6 +85,8 @@ span {
 
 .contacts li {
     display: inline;
+    white-space: nowrap;
+
     padding-right: 4px;
 }
 
@@ -112,9 +114,15 @@ span {
     flex-flow: row wrap;
 }
 
+.bodyColumn{
+    margin-left: 3%;
+    margin-right: 3%;
+    width: 44%;
+}
+
+
 .bodySection {
-    flex: 1;
-    padding: 3%;
+    padding-bottom: 30px;
 }
 
 .sectionHeader {
@@ -128,6 +136,7 @@ span {
     font-size: 20px;
     font-weight: bold;
     color: darkblue;
+    white-space: nowrap;
 
     width: auto;
 }
@@ -164,7 +173,7 @@ span {
 }
 
 .twoColumns td:last-child{
-    border-bottom: 3px solid grey;
+    border-bottom: 2px solid grey;
 }
 
 .twoColumns tr:last-child td:last-child{ /* Last cell */
