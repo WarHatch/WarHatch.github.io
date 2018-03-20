@@ -160,12 +160,17 @@ span {
 }
 
 .sectionHeader3 {
-    font-size: 17px;
+    font-size: 16px;
     color: darkblue;
 }
 
-.orangeYear{
-    font-size: 18px;
+.sectionHeader3B {
+    font-size: 16px;
+    font-weight: bold;
+    color: darkblue;
+}
+
+.orange{
     color: orange;
 }
 
