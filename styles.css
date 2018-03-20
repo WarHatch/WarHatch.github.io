@@ -55,7 +55,6 @@ span {
 }
 
 .name {
-    display: inline-block;
     white-space: nowrap;
     font-size: 32px;
 }
@@ -197,25 +196,8 @@ span {
     list-style-type: none;
 }
 
-.nameAndRating li {
-    display: flex;
-    align-items: center;
-    width: 100%;
-
-    white-space: nowrap;
-
-    padding-top: 4px;
-    padding-bottom: 4px;
-}
-
 .rating {
-    text-align: right;
-
     letter-spacing: 2px;
-
-    display: inline-block;
-    width: 100%;
-    vertical-align: middle;
 }
 
 .blueDot span {
@@ -224,4 +206,23 @@ span {
 
 .orangeDot span {
     color: orangered;
+}
+
+.oppositesContainer{
+    display: flex;
+    align-items: center;
+    width: 100%;
+
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+
+.leftFiller {
+    flex: 1 0 40%;
+}
+
+.rightFiller {
+    width: 100%;
+    text-align: right;
+    vertical-align: middle;
 }
