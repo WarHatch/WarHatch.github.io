@@ -7,6 +7,10 @@ span {
     color: gray;
 }
 
+ul {
+    padding-left: 0px;
+}​
+
 .header {
     width: 100%;
 }
