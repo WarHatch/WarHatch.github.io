@@ -1,9 +1,12 @@
 const blueHeader = document.querySelector('.bluePart');
-var image = document.querySelector('#profileImage');
+const profileImage = document.querySelector('#profileImage');
 
-let height_bh = blueHeader.offsetHeight;
-let height_img = image.offsetHeight;
+var CenterToHeader = function() {
+    let height_bh = blueHeader.offsetHeight;
+    let height_img = profileImage.offsetHeight;
+    let relMiddleToBlue = blueHeader.offsetHeight - height_img/2;
+    profileImage.style.marginTop = relMiddleToBlue + "px";
+}
 
-let relMiddleToBlue = blueHeader.offsetHeight - height_img/2;
-
-image.style.marginTop = relMiddleToBlue + "px";
+CenterToHeader();
+window.addEventListener("resize", CenterToHeader);
