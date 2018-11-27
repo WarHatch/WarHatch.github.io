@@ -157,6 +157,10 @@ footer a{
     padding-bottom: 30px;
 }
 
+.bold {
+    font-weight: bold;
+}
+
 .sectionHeader {
     display: flex;
     align-items: center;
@@ -164,13 +168,17 @@ footer a{
     width: 100%;
 }
 
-.sectionHeader > .sectionName {
+h2 {
     font-size: 20px;
-    font-weight: bold;
     color: darkblue;
     white-space: nowrap;
 
     width: auto;
+}
+
+h3 {
+    font-size: 16px;
+    color: darkblue;
 }
 
 .sectionHeader > .headerLine {
@@ -178,28 +186,6 @@ footer a{
     
     background-color: orange;
     margin-left: 15px;
-}
-
-.sectionHeader2 {
-    font-size: 18px;
-    color: darkblue;
-}
-
-.sectionHeader2B {
-    font-size: 18px;
-    font-weight: bold;
-    color: darkblue;
-}
-
-.sectionHeader3 {
-    font-size: 16px;
-    color: darkblue;
-}
-
-.sectionHeader3B {
-    font-size: 16px;
-    font-weight: bold;
-    color: darkblue;
 }
 
 .orange{
