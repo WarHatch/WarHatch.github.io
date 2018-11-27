@@ -19,7 +19,7 @@ ul {
     width: 100%;
 }
 
-.footer {
+footer {
     position: fixed;
     left: 0;
     bottom: 0;
@@ -29,7 +29,7 @@ ul {
     text-align: center;
 }
 
-.footer a{
+footer a{
     color: white;
 }
 
@@ -195,10 +195,6 @@ ul {
     color: orange;
 }
 
-.twoColumns {
-    width: 100%;
-}
-
 .twoColumns td {
     width: 50%;
 }
@@ -247,4 +243,9 @@ ul {
     width: 100%;
     text-align: right;
     vertical-align: middle;
+}
+
+/* Mandatory requirements styles */
+#lifeExpectancy td {
+    border: solid
 }
