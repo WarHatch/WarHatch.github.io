@@ -7,6 +7,10 @@ span {
     color: gray;
 }
 
+p {
+    color: gray;
+}
+
 ul {
     padding-left: 0px;
 }​
@@ -52,7 +56,6 @@ ul {
 
 .whiteHeaderContainer {
     overflow: auto;
-    padding-top: 0px;
     padding-left: 1.5%;
     padding-right: 3%;
 }
