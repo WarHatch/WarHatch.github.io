@@ -135,12 +135,23 @@ footer a{
     flex-flow: row wrap;
 }
 
+
 .bodyColumn{
     margin-left: 3%;
     margin-right: 3%;
     width: 44%;
 }
 
+
+@media only screen and (max-width: 600px) {
+    .bodyColumn {
+        width: 100%;
+    }
+
+    .name {
+        font-size: 14px;
+    }
+}
 
 .bodySection {
     padding-bottom: 30px;
@@ -248,4 +259,17 @@ footer a{
 /* Mandatory requirements styles */
 #lifeExpectancy td {
     border: solid
+}
+
+
+[invisible] {
+    color: ghostwhite !important;
+}
+
+[invisible] {
+    color:red;
+}
+
+[invisible] * {
+    color: inherit;
 }
