@@ -15,7 +15,7 @@ ul {
     padding-left: 0px;
 }​
 
-.header {
+header {
     width: 100%;
 }
 
@@ -248,14 +248,14 @@ h3 {
 }
 
 
-[invisible] {
+[unseeable] {
     color: ghostwhite !important;
 }
 
-[invisible] {
+[unseeable] {
     color:red;
 }
 
-[invisible] * {
+[unseeable] * {
     color: inherit;
 }
